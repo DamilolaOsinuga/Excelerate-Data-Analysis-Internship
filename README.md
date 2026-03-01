@@ -383,8 +383,8 @@ Feel free to reach out if you have questions about this analysis or want to disc
 | Week | Focus | Status |
 |------|-------|--------|
 | Week 1-2 | Data exploration & initial analysis | ✅ COMPLETE |
-| Week 3 | Advanced analysis & forecasting | 🔄 IN PROGRESS |
-| Week 4 | Python, visualizations, final report | 📋 PLANNED |
+| Week 3 | Advanced analysis & forecasting | ✅ COMPLETE |
+| Week 4 | Python, visualizations, final report | 🔄 IN PROGRESS |
 
 ---
 
