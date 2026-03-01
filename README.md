@@ -24,7 +24,7 @@ This is my real-world data analysis project from a **4-week global data analytic
   - Exploratory analysis with pivot tables and formulas
   - Key findings on applications, demographics, and trends
   
-- **Week 3:** Deeper analysis and advanced insights 🔄 **IN PROGRESS**
+- **Week 3:** Deeper analysis and advanced insights ✅ **COMPLETE**
   - Advanced trend analysis
   - Comparative analysis across programs and demographics
   - Forecasting and predictive insights
@@ -273,7 +273,35 @@ US and India represent a significant portion of applications, creating geographi
 
 ---
 
-## 🔄 Next Steps (Week 3-4)
+## 🤖 Week 3 — Predictive Modeling Results
+
+### Models Built
+| Script | Model | Purpose |
+|--------|-------|---------|
+| `analysis/week3_forecast.py` | Linear Regression (Trend + Seasonality) | Forecast monthly application volume |
+| `analysis/week3_churn.py` | Logistic Regression (Balanced) | Predict participant dropout/churn |
+
+### Key Results
+- **Best Forecast Model:** Linear Regression with Trend + Seasonality — R² = 0.431
+- **6-Month Forecast (Jan–Jun 2025):** 1,037 → 801 → 455 → 426 → 486 → 540 applications
+- **Churn Model Accuracy:** 74.7% | Churn Recall: **95%**
+- **Top churn driver:** Internship opportunity category (coefficient +3.20)
+- **Dataset:** 34 monthly points for forecasting | 4,730 accepted applicants for churn model
+
+### How to Run
+```bash
+pip install -r requirements.txt
+python analysis/week3_forecast.py
+python analysis/week3_churn.py
+```
+
+### Python Version
+Python 3.10+
+
+---
+
+
+## 🔄 Next Steps (Week 4)
 
 - [ ] Deep-dive analysis on underperforming categories and demographics
 - [ ] Build predictive models for application forecasting (Python)
